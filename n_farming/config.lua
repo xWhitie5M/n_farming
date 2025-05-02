@@ -6,54 +6,54 @@ Config.Locations = {
         itemName = "cannabis",
         itemCountRange = {5, 15},
 	-- MARKER --
-        markerType = 27, -- Anderer Marker-Typ für diese Location
-        markerScale = vector3(7.0, 7.0, 1.0), -- Größerer Marker
-        markerColor = {r = 0, g = 255, b = 10, a = 150}, -- Grüne Farbe
-        markerDistance = 10, -- Größere Sichtbarkeit
+        markerType = 27,
+        markerScale = vector3(7.0, 7.0, 1.0),
+        markerColor = {r = 0, g = 255, b = 10, a = 150},
+        markerDistance = 10,
 	-- BLIP --
-        showBlip = false, -- Blip anzeigen
-        blipId = 478, -- Blip-Icon ID
-        blipColor = 2, -- Blip-Farbe
-        blipScale = 1.0, -- Blip-Größe
-        blipName = "Apfelfarm" -- Blip-Name
+        showBlip = false,
+        blipId = 478,
+        blipColor = 2,
+        blipScale = 1.0,
+        blipName = "Apfelfarm"
     },
     {
         coords = vector3(2178.424, 4970.091, 41.425),
         itemName = "lsdr",
         itemCountRange = {5, 15},
 	-- MARKER --
-        markerType = 27, -- Anderer Marker-Typ für diese Location
-        markerScale = vector3(7.0, 7.0, 1.0), -- Größerer Marker
-        markerColor = {r = 0, g = 20, b = 255, a = 150}, -- Grüne Farbe
-        markerDistance = 10, -- Größere Sichtbarkeit
+        markerType = 27,
+        markerScale = vector3(7.0, 7.0, 1.0),
+        markerColor = {r = 0, g = 20, b = 255, a = 150},
+        markerDistance = 10,
 	-- BLIP --
-        showBlip = false, -- Blip anzeigen
-        blipId = 478, -- Blip-Icon ID
-        blipColor = 2, -- Blip-Farbe
-        blipScale = 1.0, -- Blip-Größe
-        blipName = "Apfelfarm" -- Blip-Name
+        showBlip = false,
+        blipId = 478,
+        blipColor = 2,
+        blipScale = 1.0,
+        blipName = "Apfelfarm"
     },
     {
         coords = vector3(-1866.24, 2100.757, 137.81),
         itemName = "traube",
         itemCountRange = {5, 15},
 	-- MARKER --
-        markerType = 27, -- Anderer Marker-Typ für diese Location
-        markerScale = vector3(7.0, 7.0, 1.0), -- Größerer Marker
-        markerColor = {r = 53, g = 0, b = 202, a = 150}, -- Grüne Farbe
-        markerDistance = 10, -- Größere Sichtbarkeit
+        markerType = 27,
+        markerScale = vector3(7.0, 7.0, 1.0),
+        markerColor = {r = 53, g = 0, b = 202, a = 150},
+        markerDistance = 10,
 	-- BLIP --
-        showBlip = false, -- Blip anzeigen
-        blipId = 478, -- Blip-Icon ID
-        blipColor = 2, -- Blip-Farbe
-        blipScale = 1.0, -- Blip-Größe
-        blipName = "Apfelfarm" -- Blip-Name
+        showBlip = false,
+        blipId = 478,
+        blipColor = 2,
+        blipScale = 1.0,
+        blipName = "Apfelfarm"
     },
 }
 
-Config.Wait = 5000 -- Wartezeit in Millisekunden bevor die Animation stoppt und das Item gegeben wird
-Config.InteractionDistance = 1.5 -- Distanz, in der der Spieler mit dem Marker interagieren kann
-Config.MenuCloseDistance = 2.0 -- Distanz, ab der das Menü geschlossen wird
+Config.Wait = 5000
+Config.InteractionDistance = 1.5
+Config.MenuCloseDistance = 2.0
 
 -- Translation --
 Config.PressE = "Drücke ~INPUT_CONTEXT~ um das Menü zu öffnen"
